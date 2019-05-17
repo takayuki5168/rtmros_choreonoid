@@ -2,14 +2,18 @@ format: ChoreonoidBody
 formatVersion: 1.0
 angleUnit: degree
 name: shovel
-
 links:
   -
     name: shovel
     translation: [0, 0, 0]
-    mass: 2.0
-    centorOfMass: [0, 0.4, 0]
     jointType: free
+    material: { viscosity: 0.5 }
+    centorOfMass: [0, 0.4, 0]
+    mass: 2.0
+    inertia: [
+      0.0000283075, 0, 0,
+      0, 0.0000283075, 0,
+      0, 0, 0.0000283075 ]
     elements:
       Transform:
         translation: [0, 0, 0]
