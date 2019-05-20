@@ -8,12 +8,12 @@ links:
     translation: [0, 0, 0]
     jointType: free
     material: { viscosity: 0.01 }
-    centorOfMass: [0, 0.4, 0]
+    centorOfMass: [0.15, -1.5, 0]
     mass: 2.0
     inertia: [
-      0.0000283075, 0, 0,
-      0, 0.0000283075, 0,
-      0, 0, 0.0000283075 ]
+      0.283075, 0, 0,
+      0, 0.283075, 0,
+      0, 0, 0.283075 ]
     elements:
       Transform:
         translation: [0, 0, 0]
